@@ -40,9 +40,13 @@ move between branches
 
     $ git checkout BRANCH_NAME
 
-delete branch
+delete local branch
 
     $ git branch -d BRANCH_NAME
+
+delete remote branch
+
+    $ git push origin :BRANCH_NAME
 
 push your branch
 
